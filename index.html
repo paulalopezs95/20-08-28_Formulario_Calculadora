@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF 8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <form class="formContact" onsubmit="validarFormulario(event)">
+        <div class="forms">
+            <h1>LOGIN</h1>
+        </div>
+        <div class="forms">
+            <label for="">Nombre</label>
+            <input type="text" id="inputName" placeholder="Ej:Pepito">
+            <span id="nameMessage" class="mensajeAlerta"></span>
+        </div>
+        <div class="forms">
+            <label for="">Apellido</label>
+            <input type="text" id="inputLastName" placeholder="Ej: Ruiz">
+
+        </div>
+
+        <div class="forms">
+            <label for="">Correo</label>
+            <input type="email" id="inputEmail" placeholder="Ej: pepito@gmail.com">
+
+        </div>
+
+        <div class="forms">
+            <label for="">Celular</label>
+            <input type="number" id="inputPhone" placeholder="32165489">
+        </div>
+        <div>
+            <input class="myButton" type="submit" value="Enviar">
+        </div>
+    </form>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

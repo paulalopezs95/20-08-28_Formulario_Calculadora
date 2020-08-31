@@ -24,7 +24,7 @@ function validarFormulario(event) {
 
     } else {
         swal("Muy bien!", "Ahora nos dirigimos a la calculadora", "success");
-        setTimeout(() => window.location = "./calculator/index.html", 2500)
+        setTimeout(() => window.location = "./calculadora/index.html", 2500)
 
 
     }
